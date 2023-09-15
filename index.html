@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница пользователя</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Logo</h1>
+        <div id="log">
+            <button id="login">Войти</button>
+        </div>
+    </header>
+    <div id="app">
+        <div id="filterBox">
+            <label for="find">
+                Поиск
+                <input type="text" id="find" placeholder="Поиск по названию">
+            </label>
+            <input type="range" min="0" max="5" step="0.1" id="range">
+        </div>
+        <div id="products">
+            <div id="categories">
+                <button id = '' class="categories active">Все товары</button>
+                <button id="men's clothing" class="categories">Мужская одежда</button>
+                <button id="women's clothing" class="categories">Женская одежда</button>
+                <button id="jewelery" class="categories">Ювелирные изделия</button>
+                <button id="electronics" class="categories">Электроника</button>
+            </div>
+            <div id="productResult">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
